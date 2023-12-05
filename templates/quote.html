@@ -3,7 +3,7 @@
 {% block title %}kanye west{% endblock title %}
 {% block body %}
 <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
+    <img src="{{ url_for('static', filename='kanyewest.jpg') }}" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Kanye says:</h5>
       <p class="card-text">{{quote}}</p>
